@@ -348,15 +348,15 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                     <form id="contactForm">
+                     <form id="contactForm" action="https://formspree.io/f/mdkdegnq" method="POST">
                         <div class="mb-3">
-                            <input type="text" class="form-control" placeholder="Your Name" required>
+                            <input type="text" name="name" class="form-control" placeholder="Your Name" required>
                         </div>
                         <div class="mb-3">
-                            <input type="email" class="form-control" placeholder="Your Email" required>
+                            <input type="email" name="email" class="form-control" placeholder="Your Email" required>
                         </div>
                         <div class="mb-3">
-                            <textarea class="form-control" rows="5" placeholder="Your Message" required></textarea>
+                            <textarea name="message" class="form-control" rows="5" placeholder="Your Message" required></textarea>
                         </div>
                         <button type="submit" class="btn btn-primary">Send Message</button>
                     </form> 
